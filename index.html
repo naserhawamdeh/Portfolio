@@ -11,13 +11,13 @@
       <div>
         <ul>
           <li>
-            <a href="#About-Me"> About Me </a>
+            <a href="#about-me"> About Me </a>
           </li>
           <li>
-            <a href="#Work"> Projects </a>
+            <a href="#work"> Projects </a>
           </li>
           <li>
-            <a href="#Contact-Me"> Contact Me </a>
+            <a href="#contact-me"> Contact Me </a>
           </li>
           <li>
             <a href="resume"> Resume </a>
@@ -26,6 +26,73 @@
       </div>
     </div>
 
-    
+    <div class="hero"></div>
+    <div class="content">
+      <section class="about-me" id="about-me">
+        <img
+          src="./assets/images/personal-photo.png" alt="personal photo of Naser Alhawamdeh"
+          class="float-left"
+          width="200";
+          length="200";
+        />
+        <h2>About Me</h2>
+        <p>
+            <br />
+            <br />
+            My name is Naser Alhawamdeh, I am a UCDavis managerial economics major with a certificate in coding for front and back-end web development. Interested in pursuing software development or FinTech in the future. I am a male 21 year old originally from Jordan but raised in the US. I am fluent in both English and Arabic and willing to work internationally or domestically.
+        </p>
+    </section>
+
+    <section class="projects" id="work">
+        <h2>My Projects</h2>
+        <p>
+            <br />
+            <br />
+            The following are some of my projects I have created using HTML, CSS, Git, and Javascript.
+        </p>
+    </section>
+
+    <section class="contact-me" id="contact-me">
+        <h2>Contact Me</h2>
+        <p>
+            <br />
+            <br />
+            If you have any questions regarding my qualifications or anything else, please do not hesitate to contact me at nalhawamdeh@ucdavis.edu . Or fill out the form on the right with your question and I will get back to you as soon as possible!
+        </p>
+
+        <section class="form">
+            <div class="hero-form">
+                <h3>
+                    Contact Me
+                </h3>
+
+                <p>
+                    Fill out this form and I will get back to you within 1-3 business days.
+                </p>
+
+                <form>
+                    <label
+                        for ="name"> Enter Full Name:
+                    </label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
+
+                    <label
+                        for ="email"> Enter Email Address
+                    </label>
+                    <input type="email" placeholder="Email Address" name="Email" id="Email" class="form-input" />
+
+                    <label
+                        for ="message">Type your question here
+                    </label>
+                    <input type ="text" placeholder ="Question" name="question" id="question" class="form-input"/>
+
+                    <button type ="submit">
+                        Submit Question
+                    </button>
+                </form>
+            </div>
+        </section>
+    </section>
+    </div>
   </body>
 </html>
