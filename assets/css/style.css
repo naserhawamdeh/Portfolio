@@ -128,5 +128,26 @@ p {
 }
 
 .run-buddy-img {
-    margin: 30px
+    border: 10px solid #000000;
+}
+
+div p.mywork {
+    padding: 10px 0 20px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.contact-me {
+    background: #2a607c;
+}
+
+.my-projects {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.contact-info {
+    color:#ffffff
 }
